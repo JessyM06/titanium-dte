@@ -1,0 +1,146 @@
+{
+    "identificacion": {
+        "version": 1,
+        "ambiente": "01",
+        "tipoDte": "01",
+        "numeroControl": "DTE-01-00030031-000000000084003",
+        "codigoGeneracion": "33066D43-1498-2094-8056-882661910410",
+        "tipoModelo": 1,
+        "tipoOperacion": 1,
+        "tipoContingencia": null,
+        "motivoContin": null,
+        "fecEmi": "2023-09-28",
+        "horEmi": "08:46:29",
+        "tipoMoneda": "USD"
+    },
+    "documentoRelacionado": null,
+    "emisor": {
+        "nit": "06142604071063",
+        "nrc": "1931029",
+        "nombre": "INVERSIONES RAMIREZ QUINTANILLA, S.A. DE C.V.",
+        "codActividad": "47300",
+        "descActividad": "Venta de combustibles, lubricantes y otros (gasolineras)",
+        "nombreComercial": "INVERSIONES RAMIREZ QUINTANILLA, S.A. DE C.V.",
+        "tipoEstablecimiento": "01",
+        "direccion": {
+            "departamento": "06",
+            "municipio": "14",
+            "complemento": "Cantón Las Delicias Porción 2da, Lote S/N, San Martin, San Salvador"
+        },
+        "telefono": "25228856",
+        "correo": "soporte.dte@gruporvq.com",
+        "codEstableMH": "0000",
+        "codEstable": "0000",
+        "codPuntoVentaMH": "0000",
+        "codPuntoVenta": "0000"
+    },
+    "receptor": {
+        "tipoDocumento": null,
+        "numDocumento": null,
+        "nrc": null,
+        "nombre": "CONSUMIDOR FINAL",
+        "codActividad": null,
+        "descActividad": null,
+        "direccion": null,
+        "telefono": null,
+        "correo": null
+    },
+    "otrosDocumentos": null,
+    "ventaTercero": null,
+    "cuerpoDocumento": [
+        {
+            "numItem": 1,
+            "tipoItem": 1,
+            "numeroDocumento": null,
+            "cantidad": 2.25734,
+            "codigo": "2",
+            "codTributo": null,
+            "uniMedida": 22,
+            "descripcion": "REGULAR-5",
+            "precioUni": 4.13,
+            "montoDescu": 0.0,
+            "ventaNoSuj": 0.0,
+            "ventaExenta": 0.0,
+            "ventaGravada": 9.322814,
+            "tributos": [
+                "D1",
+                "C8"
+            ],
+            "psv": 0.0,
+            "noGravado": 0.0,
+            "ivaItem": 1.0725
+        }
+    ],
+    "resumen": {
+        "totalNoSuj": 0.0,
+        "totalExenta": 0.0,
+        "totalGravada": 9.32,
+        "subTotalVentas": 9.32,
+        "descuNoSuj": 0.0,
+        "descuExenta": 0.0,
+        "descuGravada": 0.0,
+        "porcentajeDescuento": 0.0,
+        "totalDescu": 0.0,
+        "tributos": [
+            {
+                "codigo": "C8",
+                "descripcion": "COTRANS ($0.10 Ctvs. por galón)",
+                "valor": 0.23
+            },
+            {
+                "codigo": "D1",
+                "descripcion": "FOVIAL ($0.20 Ctvs. por galón) ",
+                "valor": 0.45
+            }
+        ],
+        "subTotal": 9.32,
+        "ivaRete1": 0.0,
+        "reteRenta": 0.0,
+        "montoTotalOperacion": 10.0,
+        "totalNoGravado": 0.0,
+        "totalPagar": 10.0,
+        "totalLetras": "diez 00/100 dolares",
+        "totalIva": 1.07,
+        "saldoFavor": 0.0,
+        "condicionOperacion": 1,
+        "pagos": null,
+        "numPagoElectronico": null
+    },
+    "extension": null,
+    "apendice": [
+        {
+            "campo": "EMP",
+            "etiqueta": "EMPLEADO",
+            "valor": "67"
+        },
+        {
+            "campo": "NO_UNICO",
+            "etiqueta": "NO_UNICO",
+            "valor": "1516753"
+        },
+        {
+            "campo": "OBSERVACION",
+            "etiqueta": "OBSERVACION",
+            "valor": "CF"
+        },
+        {
+            "campo": "SUCURSAL",
+            "etiqueta": "SUCURSAL",
+            "valor": "TEXACO ALTA VISTA"
+        }
+    ],
+    "respuestaHacienda": {
+        "version": 2,
+        "ambiente": "01",
+        "versionApp": "2",
+        "estado": "PROCESADO",
+        "codigoGeneracion": "33066D43-1498-2094-8056-882661910410",
+        "selloRecibido": "2023D042D79C12954AB0B15E03EF96D38D42YFPA",
+        "fhProcesamiento": "28/09/2023 08:46:40",
+        "clasificaMsg": "10",
+        "codigoMsg": "002",
+        "descripcionMsg": "RECIBIDO CON OBSERVACIONES",
+        "observaciones": null
+    },
+    "firma": "eyJhbGciOiJSUzUxMiJ9.ew0KICAiaWRlbnRpZmljYWNpb24iIDogew0KICAgICJ2ZXJzaW9uIiA6IDEsDQogICAgImFtYmllbnRlIiA6ICIwMSIsDQogICAgInRpcG9EdGUiIDogIjAxIiwNCiAgICAibnVtZXJvQ29udHJvbCIgOiAiRFRFLTAxLTAwMDMwMDMxLTAwMDAwMDAwMDA4NDAwMyIsDQogICAgImNvZGlnb0dlbmVyYWNpb24iIDogIjMzMDY2RDQzLTE0OTgtMjA5NC04MDU2LTg4MjY2MTkxMDQxMCIsDQogICAgInRpcG9Nb2RlbG8iIDogMSwNCiAgICAidGlwb09wZXJhY2lvbiIgOiAxLA0KICAgICJ0aXBvQ29udGluZ2VuY2lhIiA6IG51bGwsDQogICAgIm1vdGl2b0NvbnRpbiIgOiBudWxsLA0KICAgICJmZWNFbWkiIDogIjIwMjMtMDktMjgiLA0KICAgICJob3JFbWkiIDogIjA4OjQ2OjI5IiwNCiAgICAidGlwb01vbmVkYSIgOiAiVVNEIg0KICB9LA0KICAiZG9jdW1lbnRvUmVsYWNpb25hZG8iIDogbnVsbCwNCiAgImVtaXNvciIgOiB7DQogICAgIm5pdCIgOiAiMDYxNDI2MDQwNzEwNjMiLA0KICAgICJucmMiIDogIjE5MzEwMjkiLA0KICAgICJub21icmUiIDogIklOVkVSU0lPTkVTIFJBTUlSRVogUVVJTlRBTklMTEEsIFMuQS4gREUgQy5WLiIsDQogICAgImNvZEFjdGl2aWRhZCIgOiAiNDczMDAiLA0KICAgICJkZXNjQWN0aXZpZGFkIiA6ICJWZW50YSBkZSBjb21idXN0aWJsZXMsIGx1YnJpY2FudGVzIHkgb3Ryb3MgKGdhc29saW5lcmFzKSIsDQogICAgIm5vbWJyZUNvbWVyY2lhbCIgOiAiSU5WRVJTSU9ORVMgUkFNSVJFWiBRVUlOVEFOSUxMQSwgUy5BLiBERSBDLlYuIiwNCiAgICAidGlwb0VzdGFibGVjaW1pZW50byIgOiAiMDEiLA0KICAgICJkaXJlY2Npb24iIDogew0KICAgICAgImRlcGFydGFtZW50byIgOiAiMDYiLA0KICAgICAgIm11bmljaXBpbyIgOiAiMTQiLA0KICAgICAgImNvbXBsZW1lbnRvIiA6ICJDYW50w7NuIExhcyBEZWxpY2lhcyBQb3JjacOzbiAyZGEsIExvdGUgUy9OLCBTYW4gTWFydGluLCBTYW4gU2FsdmFkb3IiDQogICAgfSwNCiAgICAidGVsZWZvbm8iIDogIjI1MjI4ODU2IiwNCiAgICAiY29ycmVvIiA6ICJzb3BvcnRlLmR0ZUBncnVwb3J2cS5jb20iLA0KICAgICJjb2RFc3RhYmxlTUgiIDogIjAwMDAiLA0KICAgICJjb2RFc3RhYmxlIiA6ICIwMDAwIiwNCiAgICAiY29kUHVudG9WZW50YU1IIiA6ICIwMDAwIiwNCiAgICAiY29kUHVudG9WZW50YSIgOiAiMDAwMCINCiAgfSwNCiAgInJlY2VwdG9yIiA6IHsNCiAgICAidGlwb0RvY3VtZW50byIgOiBudWxsLA0KICAgICJudW1Eb2N1bWVudG8iIDogbnVsbCwNCiAgICAibnJjIiA6IG51bGwsDQogICAgIm5vbWJyZSIgOiAiQ09OU1VNSURPUiBGSU5BTCIsDQogICAgImNvZEFjdGl2aWRhZCIgOiBudWxsLA0KICAgICJkZXNjQWN0aXZpZGFkIiA6IG51bGwsDQogICAgImRpcmVjY2lvbiIgOiBudWxsLA0KICAgICJ0ZWxlZm9ubyIgOiBudWxsLA0KICAgICJjb3JyZW8iIDogbnVsbA0KICB9LA0KICAib3Ryb3NEb2N1bWVudG9zIiA6IG51bGwsDQogICJ2ZW50YVRlcmNlcm8iIDogbnVsbCwNCiAgImN1ZXJwb0RvY3VtZW50byIgOiBbIHsNCiAgICAibnVtSXRlbSIgOiAxLA0KICAgICJ0aXBvSXRlbSIgOiAxLA0KICAgICJudW1lcm9Eb2N1bWVudG8iIDogbnVsbCwNCiAgICAiY2FudGlkYWQiIDogMi4yNTczNCwNCiAgICAiY29kaWdvIiA6ICIyIiwNCiAgICAiY29kVHJpYnV0byIgOiBudWxsLA0KICAgICJ1bmlNZWRpZGEiIDogMjIsDQogICAgImRlc2NyaXBjaW9uIiA6ICJSRUdVTEFSLTUiLA0KICAgICJwcmVjaW9VbmkiIDogNC4xMywNCiAgICAibW9udG9EZXNjdSIgOiAwLjAsDQogICAgInZlbnRhTm9TdWoiIDogMC4wLA0KICAgICJ2ZW50YUV4ZW50YSIgOiAwLjAsDQogICAgInZlbnRhR3JhdmFkYSIgOiA5LjMyMjgxNCwNCiAgICAidHJpYnV0b3MiIDogWyAiRDEiLCAiQzgiIF0sDQogICAgInBzdiIgOiAwLjAsDQogICAgIm5vR3JhdmFkbyIgOiAwLjAsDQogICAgIml2YUl0ZW0iIDogMS4wNzI1DQogIH0gXSwNCiAgInJlc3VtZW4iIDogew0KICAgICJ0b3RhbE5vU3VqIiA6IDAuMCwNCiAgICAidG90YWxFeGVudGEiIDogMC4wLA0KICAgICJ0b3RhbEdyYXZhZGEiIDogOS4zMiwNCiAgICAic3ViVG90YWxWZW50YXMiIDogOS4zMiwNCiAgICAiZGVzY3VOb1N1aiIgOiAwLjAsDQogICAgImRlc2N1RXhlbnRhIiA6IDAuMCwNCiAgICAiZGVzY3VHcmF2YWRhIiA6IDAuMCwNCiAgICAicG9yY2VudGFqZURlc2N1ZW50byIgOiAwLjAsDQogICAgInRvdGFsRGVzY3UiIDogMC4wLA0KICAgICJ0cmlidXRvcyIgOiBbIHsNCiAgICAgICJjb2RpZ28iIDogIkM4IiwNCiAgICAgICJkZXNjcmlwY2lvbiIgOiAiQ09UUkFOUyAoJDAuMTAgQ3R2cy4gcG9yIGdhbMOzbikiLA0KICAgICAgInZhbG9yIiA6IDAuMjMNCiAgICB9LCB7DQogICAgICAiY29kaWdvIiA6ICJEMSIsDQogICAgICAiZGVzY3JpcGNpb24iIDogIkZPVklBTCAoJDAuMjAgQ3R2cy4gcG9yIGdhbMOzbikgIiwNCiAgICAgICJ2YWxvciIgOiAwLjQ1DQogICAgfSBdLA0KICAgICJzdWJUb3RhbCIgOiA5LjMyLA0KICAgICJpdmFSZXRlMSIgOiAwLjAsDQogICAgInJldGVSZW50YSIgOiAwLjAsDQogICAgIm1vbnRvVG90YWxPcGVyYWNpb24iIDogMTAuMCwNCiAgICAidG90YWxOb0dyYXZhZG8iIDogMC4wLA0KICAgICJ0b3RhbFBhZ2FyIiA6IDEwLjAsDQogICAgInRvdGFsTGV0cmFzIiA6ICJkaWV6IDAwLzEwMCBkb2xhcmVzIiwNCiAgICAidG90YWxJdmEiIDogMS4wNywNCiAgICAic2FsZG9GYXZvciIgOiAwLjAsDQogICAgImNvbmRpY2lvbk9wZXJhY2lvbiIgOiAxLA0KICAgICJwYWdvcyIgOiBudWxsLA0KICAgICJudW1QYWdvRWxlY3Ryb25pY28iIDogbnVsbA0KICB9LA0KICAiZXh0ZW5zaW9uIiA6IG51bGwsDQogICJhcGVuZGljZSIgOiBbIHsNCiAgICAiY2FtcG8iIDogIkVNUCIsDQogICAgImV0aXF1ZXRhIiA6ICJFTVBMRUFETyIsDQogICAgInZhbG9yIiA6ICI2NyINCiAgfSwgew0KICAgICJjYW1wbyIgOiAiTk9fVU5JQ08iLA0KICAgICJldGlxdWV0YSIgOiAiTk9fVU5JQ08iLA0KICAgICJ2YWxvciIgOiAiMTUxNjc1MyINCiAgfSwgew0KICAgICJjYW1wbyIgOiAiT0JTRVJWQUNJT04iLA0KICAgICJldGlxdWV0YSIgOiAiT0JTRVJWQUNJT04iLA0KICAgICJ2YWxvciIgOiAiQ0YiDQogIH0sIHsNCiAgICAiY2FtcG8iIDogIlNVQ1VSU0FMIiwNCiAgICAiZXRpcXVldGEiIDogIlNVQ1VSU0FMIiwNCiAgICAidmFsb3IiIDogIlRFWEFDTyBBTFRBIFZJU1RBIg0KICB9IF0NCn0.OAxbLnCrfpnxqbZ1zwX6uVqJpUODZThMMxhtFZsTpvMo9aN4LPKOh66pwjMhC70akiAPYbKv8iivJ6aF-yuBkXNS0o6XiN7umjiOgtb0VqaHBXiUO2v1UyMVSiCkgIfmsf1bncaQJN-VOWf7bzmabqZmg3qALWehgfOL0dNheittFl7bAriyou29HTLyH8Li-VAXfvOROuzwiDj7HmJtqJysJu7lhwJIJ2EPkcQNF0wQRCGqWJxcbJjqLfwb50cGbymXxl0F1nvejPRNRyUryaBw94iC1h-VGNPOlN0a2fpAVPaCDzyYHZANH3m2HDsBaKFuaesS1pfCu3FWH1zO4w"
+}

@@ -1,12 +1,13 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Importar componentes
 import Inicio from './pages/Inicio';
-import Archivo_Dte from './pages/Archivo_Dte';
-import Consulta_Dte from './pages/Consulta_Dte';
-import Documento_Grafico from './pages/Documento_Grafico';
-import MenuNavbar from './components/Navbar';
+import ArchivoDte from './pages/ArchivoDte';
+import ConsultaDte from './pages/ConsultaDte';
+import DocumentoGrafico from './pages/DocumentoGrafico';
+import MenuNavbar from './components/Navbar/Navbar';
 
 function App() {
   return (
@@ -15,9 +16,9 @@ function App() {
         <Routes>
           <Route path='/' element={ <MenuNavbar /> }>
             <Route index element={ <Inicio /> } />
-            <Route path='documento-grafico' element={ <Documento_Grafico /> } />
-            <Route path='consulta-dte' element={ <Consulta_Dte /> } />
-            <Route path='archivo-dte' element={ <Archivo_Dte /> } />
+            <Route path='documento-grafico' element={ <DocumentoGrafico /> } />
+            <Route path='consulta-dte' element={ <ConsultaDte /> } />
+            <Route path='archivo-dte' element={ <ArchivoDte /> } />
 
             <Route path='*' element={ <Navigate replace to="/" /> } />
           </Route>

@@ -2,7 +2,7 @@ import React from "react";
 
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Outlet, Link } from "react-router-dom";
-import Image from "../assets/img/logo.jpeg";
+import Image from "../../assets/img/logo.jpeg";
 
 const MenuNavbar = () => {
   return (
@@ -28,7 +28,7 @@ const MenuNavbar = () => {
               <Nav.Link as={Link} to="/documento-grafico">
                 Documento Grafico
               </Nav.Link>
-              <Nav.Link as={Link} to="/consulta-dte">
+              <Nav.Link href="https://webapp.dtes.mh.gob.sv/consultaPublica?ambiente=01&codGen=33066D43-1498-2094-8056-882661910410&fechaEmi=2023-09-28">
                 Consulta Dte
               </Nav.Link>
               <Nav.Link as={Link} to="/archivo-dte">
