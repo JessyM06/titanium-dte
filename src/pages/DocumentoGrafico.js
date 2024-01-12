@@ -28,16 +28,16 @@ const Documento_Grafico = () => {
   return (
     <div style={{ position: "absolute", width: "100%", height: "100%" }}>
       <object
-        data={require("../assets/Docs/FCF0000000003.pdf")}
+        data={require("../assets/Docs/FCF0000000002.pdf")}
         type="application/pdf"
         width="100%"
         height="100%"
       >
         <br />
         <a
-          href={require("../assets/Docs/FCF0000000003.pdf")}
+          href={require("../assets/Docs/FCF0000000002.pdf")}
           id="descargar_pdf"
-          download="FCF0000000003.pdf"
+          download="FCF0000000002.pdf"
         >
           <div className="btn-descarga">
           <Button 
