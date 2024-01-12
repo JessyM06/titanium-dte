@@ -13,7 +13,7 @@ const Slider = () => {
     <>
      <Carousel data-bs-theme="dark">
       <Carousel.Item>
-        <img style={{height:'90vh'}}
+        <img style={{height:'50vh'}}
           className="d-block w-100"
           src={Img1}
           alt="First slide"
@@ -23,7 +23,7 @@ const Slider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img style={{height:'90vh'}}
+        <img style={{height:'50vh'}}
           className="d-block w-100"
           src={Img2}
           alt="Second slide"
@@ -33,7 +33,7 @@ const Slider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img style={{height:'90vh'}}
+        <img style={{height:'50vh'}}
           className="d-block w-100"
           src={Img3}
           alt="Third slide"
@@ -43,7 +43,7 @@ const Slider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img style={{height:'90vh'}}
+        <img style={{height:'50vh'}}
           className="d-block w-100"
           src={Img4}
           alt="First slide"
@@ -53,7 +53,7 @@ const Slider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img style={{height:'90vh'}}
+        <img style={{height:'50vh'}}
           className="d-block w-100"
           src={Img5}
           alt="First slide"
@@ -63,7 +63,7 @@ const Slider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img style={{height:'90vh'}}
+        <img style={{height:'50vh'}}
           className="d-block w-100"
           src={Img6}
           alt="First slide"
